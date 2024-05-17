@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- First we Make Header -->
+    <header>
+
+        <!-- Now We make Nav -->
+        <div id="nav-container">
+        <!-- logo -->
+            <div id="nav-container1">
+                <div class="icon-container-nav"><img src="logo.png" alt=""><pre>  foodpanda</pre></div>
+            </div>
+            <div id="nav-container2">
+                <div id="nav-container-for-button">
+                <div id="nav-login"><button class="open-button" onclick="openForm()">Log in</button>
+
+                    <div class="form-popup" id="myForm">
+                      <form action="/action_page.php" class="form-container">
+                        <h1>Login</h1>
+                    
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                    
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                        <button type="submit" class="btn">Login</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                      </form>
+                    </div></div>
+                <div id="nav-signup"><input type="button" value="Sign up"></div>
+                <div id="nav-language"><div class="dropdown">
+                    <button class="dropbtn">Language</button>
+                    <div class="dropdown-content">
+                    <a href="#">Eng</a>
+                    <a href="#">Urdu</a>
+                    
+                    </div>
+                  </div>
+                  </div>
+            </div>
+            </div>
+            <div id="nav-container3">
+                <div class="cart-icon-container"><img src="cart-icon.png" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body making -->
+    <main>
+        <div id="main-container">
+            <div id="main-container1">
+                <div id="main-container1-para1"><h1>It's the food and groceries you love, delivered</h1></div>
+                <div id="main-container1-input"><input type="text" placeholder="Your Street And Street Number"><input type="button" id="find" value="Find Food"></div>
+            </div>
+            <div id="main-container2"><img src="main-container2-img.png" alt=""></div>
+            
+        </div>
+    </main>
+    <!-- End -->
+    <section>
+        <div id="section1-container">
+            <div id="section1-container-h1"><h1>You prepare the food, we handle the rest</h1></div>
+            <div id="section1-img-container"><img src="section1 img.png" alt=""></div>
+        </div>
+    </section>
+    <!-- End -->
+    <section>
+        <div id="section2-container">
+            <div id="section1-container-h1"><h1>Find Us in this Cities and Many More!!!</h1></div>
+            <div id="card-container">
+                <!-- LINE 1 -->
+                <div id="card-container-line-1">
+                    <div id="card-container-1"><img src="Islamabad.png" alt="" ><span>Islamabad</span></div>
+                    <div id="card-container-1"><img src="karachi.png" alt="" ><span>Karachi</span></div>
+                    <div id="card-container-1"><img src="Lahore.png" alt="" ><span>Lahore</span></div>
+                    <div id="card-container-1"><img src="Faislabad.png" alt="" ><span>Faislabad</span></div>
+                </div>
+                <!-- LINE 2 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Rawalpindi.png" alt="" ><span>Rawalpindi</span></div>
+                    <div id="card-container-1"><img src="Abbottabad.png" alt="" ><span>Abbottabad</span></div>
+                    <div id="card-container-1"><img src="Bahawalpur.png" alt="" ><span>Bahawal Pur</span></div>
+                    <div id="card-container-1"><img src="Dera Ghazi Khan.png" alt="" ><span>Dera Ghazi</span></div>
+                </div>
+                <!-- LINE 3 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Gujrawala.jpg" alt="" ><span>Guzranwala</span></div>
+                    <div id="card-container-1"><img src="Gujrat.png" alt="" ><span>Gujrat</span></div>
+                    <div id="card-container-1"><img src="Hyderabad.png" alt="" ><span>Hyderabad</span></div>
+                    <div id="card-container-1"><img src="Jhelum.jpg" alt="" ><span>Jhelum</span></div>
+                </div>
+                <!-- LINE 4 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Kamoke.png" alt="" ><span>Kamoke</span></div>
+                    <div id="card-container-1"><img src="Larkana.png" alt="" ><span>Larkana</span></div>
+                    <div id="card-container-1"><img src="Mangla.png" alt="" ><span>Mangla</span></div>
+                    <div id="card-container-1"><img src="Mardan.png" alt="" ><span>MArdan</span></div>
+                </div>
+                <!-- LINE 5 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Multan.png" alt="" ><span>Multan</span></div>
+                    <div id="card-container-1"><img src="Murree.jpg" alt="" ><span>Murree</span></div>
+                    <div id="card-container-1"><img src="Okara.png" alt="" ><span>Okara</span></div>
+                    <div id="card-container-1"><img src="Pano Aqil.png" alt="" ><span>Pano Aqil</span></div>
+                </div>
+                <!-- LINE 6 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Peshawar.png" alt="" ><span>Peshawar</span></div>
+                    <div id="card-container-1"><img src="Quetta.png" alt="" ><span>Quetta</span></div>
+                    <div id="card-container-1"><img src="Rahim yaar khan.png" alt="" ><span>Rhim Yaar</span></div>
+                    <div id="card-container-1"><img src="Sadiqabad.png" alt="" ><span>Sadiqabab</span></div>
+                </div>
+                <!-- LINE 7 -->
+                <div id="card-container-line-2">
+                    <div id="card-container-1"><img src="Shiwal.jpg" alt="" ><span>Shiwal</span></div>
+                    <div id="card-container-1"><img src="Sargodha.jpg" alt="" ><span>Sargodha</span></div>
+                    <div id="card-container-1"><img src="SheikhPura.jpg" alt="" ><span>SheikhPura</span></div>
+                    <div id="card-container-1"><img src="Sialkot.jpg" alt="" ><span>Sialkot</span></div>
+                </div>
+                <!-- LINE 8 -->
+                <div id="card-container-line-8">
+                    <div id="card-container-1"><img src="Sukkur.jpg" alt="" ><span>Sukkur</span></div>
+                    <div id="card-container-1"><img src="Wah cantt.jpg" alt="" ><span>Wah Cantt</span></div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Card End -->
+    <section>
+        <div id="ad-h2"><h2>PUT IN YOUR POCKET</h2>
+        <img src="Put-in-your-pocket.png" alt="">
+        <div id="out-of-lunch"> <h2>Take Your Office Out for Lunch</h2>
+        <img src="Put-in-your-pocket.png" alt=""></div>
+    </div>
+    </section>
+  
+  <!-- Written Section -->
+    <section>
+<div id="written-section">
+   
+    <div id="writing-sec">
+        <h2>
+            <strong>
+                Order food and groceries online from the best restaurants and shops on foodpanda
+            </strong>
+        </h2>
+        <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? <br> Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help <br> make your every day easier.</p>
+        <br><br><h2>
+            <strong>What's new?</strong>
+        </h2>
+        <p> <span>✓</span> Wide variety of restaurants and shops, an abundance of cuisines & products. <br>
+            <span>✓</span>  High quality delivery service. <br>
+            <span>✓</span> Live chat feature to give App users instant help when they need it. <br>
+            <span>✓</span> NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.</p>
+        <br><br> <h2>
+            <strong>Frequently Asked Questions</strong>
+        </h2>
+        <br>
+        <h3>How can I get foodpanda delivery?</h3>
+        <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, browse through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!</p>
+        <br><br><h3>Which takeout restaurants open now near me?</h3>
+        <p>You can check which takeout restaurants are open now near you by simply typing your address in the location bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area.</p>
+        <br><br><h3>Does foodpanda deliver 24 hours?</h3>
+        <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart.</p>
+        <br><br><h3>Can you pay cash for foodpanda?</h3>
+        <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+        <br><br><h3>How can I pay foodpanda online?</h3>
+        <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+        <br><br><h3>Can I order foodpanda for someone else?</h3>
+        <p>Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund.</p>
+        <br><br><h3>How much does foodpanda charge for delivery?</h3>
+        <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+        <br><br><h3>What restaurants let you order online?</h3>
+        <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.</p>
+        <br><br><h3>Does foodpanda have minimum order?</h3>
+        <p>Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you order from and is indicated during your ordering process.</p>
+        <br><br><h3>What is the difference between delivery and Pick-Up?</h3>
+        <p>If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for extra savings – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.</p>
+        <br><h3>Order food and groceries online with foodpanda now and enjoy a great dining experience!</h3><br><br><br><br><br><br><br><br><br><br><br><hr>
+    
+    </div>
+</div>
+   </section>
+
+   <!-- End -->
+
+   <footer>
+    <div id="footer-nav">
+        <ul>
+            <li>Laos</li>
+            <li>Combodia</li>
+            <li>Malasia</li>
+            <li>Bangladesh</li>
+            <li>Maymar</li>
+            <li>Thailand</li>
+            <li>Hongkong</li>
+            <li>Taiwan</li>
+            <li>Philipines</li>
+            <li>Singapore</li>
+
+        </ul>
+    </div>
+   </footer>
+   <section>
+    <div id="last-section">
+        <div id="last-section-1">@foodpanda</div>
+        <div id="last-section-2">
+            <ul>
+                <li>Press</li>
+                <li>Panda Pay Terms And Condition</li>
+                <li>Secutity</li>
+                <li>Careers</li>
+                <li>Cashback Terms and Conditions</li>
+                <li>Partner with Us</li>
+                <li>All cities</li>
+                <li>pandapro - Monthly Subscription</li>
+
+            </ul>
+        </div>
+        <div id="last-section-3"> 
+            <ul>
+               <li>Help Center</li>
+               <li>Terms and Conditions</li>
+               <li>Download foodpanda Apps</li>
+               <li>Suggest a Restaurant</li>
+               <li>All cuisines</li>
+               <li>pandago - Request a Rider</li>
+               <li>Update on COVID-19 in Pakistan</li>
+               <li>foodpanda Home Chef</li>
+
+
+        </ul></div>
+        <div id="last-section-4">
+            <ul>
+                <li></li>
+            <ul>
+               <li>Refunds with pandapay</li>
+               <li>Privacy policy</li>
+               <li>Human rights policy</li>
+               <li>Corporate Customer</li>
+               <li>foodpanda Magazine</li>
+               <li>foodpanda Vouchers & Coupons</li>
+               <li>pandamart Grocery Delivery</li>
+               <li>Become an Affiliate</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section>
+    <hr>
+    <div id="last-container-end">
+    <div id="nav-container1">
+        <div class="icon-container-nav"><img src="logo.png" alt=""><pre>  foodpanda</pre></div>
+    </div>
+    <div id="last-icon">
+        <img src="fb icon.png" alt="">
+        <img src="youtube icon.png" alt="">
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
